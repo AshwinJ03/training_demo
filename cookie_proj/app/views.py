@@ -33,6 +33,12 @@ def logout_view(request):
     response.delete_cookie('username')
     return response
 
+def logout_view(request):
+    response = redirect('login')
+    response.delete_cookie('username')
+    
+
+
 
 
 
