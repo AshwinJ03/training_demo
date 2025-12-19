@@ -43,7 +43,7 @@ from .views import LoginTokenAPI"""
 
 urlpatterns = [
     path('', login_view, name='login'),
-    path('hello/', profile, name='profile'),
+    path('hello1/', profile, name='profile'),
     path('about/', about, name='about'),
     path('logout/', logout_view, name='logout'),
 ]
